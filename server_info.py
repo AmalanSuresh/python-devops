@@ -4,7 +4,7 @@ cpu_usage = 45.7
 is_healthy = True
 owner = None
 port_text = "8080"
-port = int(port_text)
+new_port = int(port_text)
 
 
 print(hostname,type(hostname))
@@ -12,7 +12,7 @@ print(port,type(port))
 print(cpu_usage,type(cpu_usage))
 print(is_healthy,type(is_healthy))
 print(owner,type(owner))
-print(port + 1)
+print(new_port + 1)
 
 print(f"hostname = {hostname} (type: {type(hostname).__name__})")
 print(f"port = {port} (type: {type(port).__name__})")
